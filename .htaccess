@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^home$ index.html [L]
+RewriteRule ^privacy-policy$ privacy.html [L]
+RewriteRule ^terms-and-conditions$ terms.html [L]
+
+RewriteEngine On
+RewriteCond %{THE_REQUEST} /index\.html
+RewriteRule ^index\.html$ / [R=301,L]
