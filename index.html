@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <!--=============== FONTS AWESOME ===============--> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <!--=============== SWIPER CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <!--=============== SWIPER.JS ===============--> 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>  
+
+        <!--=============== RECAPTCHA ===============-->
+        <script src="https://www.google.com/recaptcha/api.js?render=6LeC6JwrAAAAADng3E9lYsFl3qZLQkoc783jg1a2"></script>
+
+        <!--=============== CONTACT JS ===============-->
+        <script src="assets/js/contact.js"></script>
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+        <!--=============== PRICINGS ===============--> 
+        <script src="assets/js/pricings.js"></script>
+        <!--=============== GALLERY ===============--> 
+        <script src="assets/js/gallery.js"></script>
+        <!--=============== REVIEWS ===============--> 
+        <script src="assets/js/reviews.js"></script>
+        <!--=============== SNOW FALL ===============-->
+        <script src="assets/js/snowfall.js"></script>
+        <!--=============== FAVICON ===============-->
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/img/snowflake.ic">
+        <link rel="icon" type="image/x-icon" href="assets/img/snowman.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="assets/img/kingdom.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/img/kingdom.png">
+
+        <!--=============== CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <title>Snow Kingdom</title>
+
+    </head>
+    <body>
+            
+            <!--=============== SNOW FALL ===============-->
+            <div class="snow-fall"></div>
+            <!--==================== HEADER ====================-->
+            <header class="header" id="header">
+            <nav class="nav container">
+                <a class="nav__logo" href="#">
+                <img alt="" class="nav__logo-img" src="assets/img/kingdom.png"/>
+                Snow Kingdom
+                </a>
+                <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                <li class="nav__item">
+                <a class="nav__link active-link" href="#hero">
+                    Home
+                </a>
+                </li>
+                <li class="nav__item">
+                <a class="nav__link" href="#about">
+                    About
+                </a>
+                </li>
+                <li class="nav__item">
+                <a class="nav__link" href="#gallery">
+                    Gallery
+                </a>
+                </li>
+                <li class="nav__item">
+                <a class="nav__link" href="#contact">
+                    Contact
+                </a>
+                </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                <i class="bx bx-x">
+                </i>
+                </div>
+                <img alt="" class="nav__img" src="assets/img/kingdom.png"/>
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-grid-alt">
+                </i>
+                </div>
+            </nav>
+            </header>
+            <main class="main">
+        <!--============== Bottom Navbar for Mobile =====-->
+            <div class="mobile-bottom-nav">
+                <a href="#hero">
+                    <i class="fa-solid fa-house"></i>
+                </a>
+                <a href="#about">
+                    <i class="fa-solid fa-snowman"></i>
+                </a>
+                <a href="#gallery">
+                    <i class="fa-solid fa-images"></i>
+                </a>
+                <a href="#pricing">
+                    <i class="fa-solid fa-money-bill"></i>
+                </a>
+            </div>
+
+            <section class="hero-slider-wrapper" id="hero">
+                <div class="hero-slider-container">
+                    <div class="swiper hero-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="assets/img/Slider-1.jpeg" alt="Snow Kingdom Outdoor" class="slider-img">
+                            <div class="slider-vertical-shade"></div>
+                            <div class="slider-shine"></div>
+                            <div class="slider-text-area">
+                                <h2>Snow Adventure</h2>
+                                <p>Build snowmen, toss snowballs, or just play around, endless winter fun awaits inside!</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/Slider-2.jpeg" alt="Snow Kingdom Indoor" class="slider-img">
+                            <div class="slider-vertical-shade"></div>
+                            <div class="slider-shine"></div>
+                            <div class="slider-text-area">
+                                <h2>Fun Area</h2>
+                                <p>Slide, spin, and laugh your way down our icy slopes on colorful donut tubes. Fun for all ages!</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/Slider-3.jpeg" alt="Snow Kingdom Rink" class="slider-img">
+                            <div class="slider-vertical-shade"></div>
+                            <div class="slider-shine"></div>
+                            <div class="slider-text-area">
+                                <h2>Snow Photo Zone</h2>
+                                <p>Snap unforgettable memories in our magical snow filled selfie spot. Strike a pose in the snow!</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            <div class="custom-slider-pagination swiper-pagination"></div>
+            </section>
+
+        
+        <!--==================== CATEGORY ====================-->
+        <section class="section category">
+            <h2 class="section__title">
+            Our Activities
+            </h2>
+            <div class="category__container container grid">
+            <div class="category__data">
+            <img alt="" class="category__img" src="assets/img/ski.png"/>
+            <h3 class="category__title">
+            Ice Skiing
+            </h3>
+            <p class="category__description">
+            Feel the chill and race the snow.
+            </p>
+            </div>
+            <div class="category__data">
+            <img alt="" class="category__img" src="assets/img/hockey.png"/>
+            <h3 class="category__title">
+            Ice Hockey
+            </h3>
+            <p class="category__description">
+            Adrenaline meets winter sport magic.
+            </p>
+            </div>
+            <div class="category__data">
+            <img alt="" class="category__img" src="assets/img/skates.png"/>
+            <h3 class="category__title">
+            Ice Skating
+            </h3>
+            <p class="category__description">
+            Glide through frosty elegance and fun.
+            </p>
+            </div>
+            </div>
+        </section>
+
+
+        <!--==================== ABOUT ====================-->
+        <section class="section about" id="about">
+            <div class="about__container container grid">
+            <div class="about__data">
+            <h2 class="section__title about__title">
+            About Snow Kingdom
+            </h2>
+            <p class="about__description">
+            Snow Kingdom is Phuket’s very own indoor winter wonderland, where magic fills the air with falling snow and icy fun for all ages. This unique attraction brings a snowy escape to the tropical island, offering a cool break from the heat with slides, snow play areas, and delightful winter-themed activities. Families, tourists, and locals come together to experience the joy of winter right in the heart of Phuket. Using advanced technology, Snow Kingdom creates an unforgettable atmosphere that mixes fun and frosty adventure. Visitors leave with memories of smiles, laughter, and the surprising thrill of snow in a place where you’d least expect it. Snow Kingdom continues to grow in popularity, welcoming everyone to share the joy of the season any time of year. Whether you come for a quick visit or spend the day exploring, Snow Kingdom guarantees a chilly experience unlike any other tropical destination. It is truly a magical place where winter dreams come alive.
+            </p>
+            </div>
+            <img alt="" class="about__img" src="assets/img/snowman.png"/>
+            </div>
+        </section>
+
+       <!--======== YouTube Player =============-->
+        <div class="yt-center">
+            <div class="glass-yt-player">
+                <iframe class="yt-video-embed"
+                src="https://www.youtube.com/embed/uy41VS68oBc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+
+
+
+        <!--==================== GALLERY ====================-->
+        <section class="gallery-section" id="gallery">
+        <h2>Our Gallery</h2>
+
+        <div class="gallery-grid">
+            <div class="gallery-item"><img src="assets/img/Gallery-1.png" alt="Gallery Image"></div>
+            <div class="gallery-item"><img src="assets/img/Gallery-2.png" alt="Gallery Image"></div>
+            <div class="gallery-item"><img src="assets/img/Gallery-3.png" alt="Gallery Image"></div>
+            <div class="gallery-item"><img src="assets/img/Gallery-4.png" alt="Gallery Image"></div>
+            <div class="gallery-item"><img src="assets/img/Gallery-5.png" alt="Gallery Image"></div>
+            <div class="gallery-item"><img src="assets/img/Gallery-6.png" alt="Gallery Image"></div>
+            <div class="gallery-item"><img src="assets/img/Gallery-7.png" alt="Gallery Image"></div>
+            <div class="gallery-item"><img src="assets/img/Gallery-8.png" alt="Gallery Image"></div>
+        </div>
+
+        <div class="overlay" id="overlay">
+            <button class="nav-btn" id="prevBtn">❮</button>
+            <img src="" alt="Preview" id="previewImage">
+            <button class="nav-btn" id="nextBtn">❯</button>
+        </div>
+
+        <div class="close-btn" id="closeBtn">×</div>
+        </section>
+
+        
+        <!--==================== PRICINGS ====================-->
+
+        <section class="pricing-section" id="pricing">
+            <h2 class="pricing-title">Our Pricings</h2>
+            <p class="pricing-subtitle">
+                We're proud to welcome our local community! Residents and expat guests get 50% off with proof of residency or work permit.
+            </p>
+            <div class="swiper pricing-swiper">
+                <div class="swiper-wrapper">
+
+                    <!-- 4 cards -->
+                    <div class="swiper-slide">
+                        <div class="pricing-card">
+                            <div class="icon-stack">
+                                <div class="glass-ring"></div>
+                                <img src="assets/img/ski.png" alt="Ski Icon" />
+                            </div>
+                                <div class="title">Ski Sliding</div>
+                                <div class="description">Feel the chill and race the snow.</div>
+                                <div class="features">
+                                <span>Free Equipment</span>
+                                <span>3 Hours</span>
+                                <span>Free Hoods</span>
+                            </div>
+                            <div class="price-btn">
+                            600
+                                <img src="assets/img/coin.png" alt="Coin" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="pricing-card">
+                            <div class="icon-stack">
+                            <div class="glass-ring"></div>
+                            <img src="assets/img/hockey.png" alt="Hockey Icon" />
+                            </div>
+                            <div class="title">Ice Tube Sliding</div>
+                            <div class="description">Adrenaline meets winter sport magic.</div>
+                            <div class="features">
+                            <span>All Gear Included</span>
+                            <span>4 Hours</span>
+                            <span>Pro Instructor</span>
+                            </div>
+                            <div class="price-btn">
+                            800
+                            <img src="assets/img/coin.png" alt="Coin" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="pricing-card">
+                            <div class="icon-stack">
+                            <div class="glass-ring"></div>
+                            <img src="assets/img/skates.png" alt="Skating Icon" />
+                            </div>
+                            <div class="title">Ice Skating</div>
+                            <div class="description">Bring your own flair, skates available to rent</div>
+                            <div class="features">
+                            <span>Skates Rental</span>
+                            <span>2.5 Hours</span>
+                            <span>One-on-One Guide</span>
+                            </div>
+                            <div class="price-btn">
+                            400
+                            <img src="assets/img/coin.png" alt="Coin" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="pricing-card">
+                            <div class="icon-stack">
+                            <div class="glass-ring"></div>
+                            <img src="https://via.placeholder.com/110" alt="Skating Icon" />
+                            </div>
+                            <div class="title">Snow Balls Battle</div>
+                            <div class="description">Glide through frosty elegance and fun.</div>
+                            <div class="features">
+                            <span>Free Skates</span>
+                            <span>2.5 Hours</span>
+                            <span>One-on-One Guide</span>
+                            </div>
+                            <div class="price-btn">
+                            400
+                            <img src="assets/img/coin.png" alt="Coin" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 4 cards -->
+                    <div class="swiper-slide">
+                        <div class="pricing-card">
+                            <div class="icon-stack">
+                                <div class="glass-ring"></div>
+                                <img src="assets/img/ski.png" alt="Ski Icon" />
+                            </div>
+                                <div class="title">Ski Sliding</div>
+                                <div class="description">Feel the chill and race the snow.</div>
+                                <div class="features">
+                                <span>Free Equipment</span>
+                                <span>3 Hours</span>
+                                <span>Free Hoods</span>
+                            </div>
+                            <div class="price-btn">
+                            600
+                                <img src="assets/img/coin.png" alt="Coin" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="pricing-card">
+                            <div class="icon-stack">
+                            <div class="glass-ring"></div>
+                            <img src="assets/img/hockey.png" alt="Hockey Icon" />
+                            </div>
+                            <div class="title">Ice Tube Sliding</div>
+                            <div class="description">Adrenaline meets winter sport magic.</div>
+                            <div class="features">
+                            <span>All Gear Included</span>
+                            <span>4 Hours</span>
+                            <span>Pro Instructor</span>
+                            </div>
+                            <div class="price-btn">
+                            800
+                            <img src="assets/img/coin.png" alt="Coin" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="pricing-card">
+                            <div class="icon-stack">
+                            <div class="glass-ring"></div>
+                            <img src="assets/img/skates.png" alt="Skating Icon" />
+                            </div>
+                            <div class="title">Ice Skating</div>
+                            <div class="description">Bring your own flair, skates available to rent</div>
+                            <div class="features">
+                            <span>Skates Rental</span>
+                            <span>2.5 Hours</span>
+                            <span>One-on-One Guide</span>
+                            </div>
+                            <div class="price-btn">
+                            400
+                            <img src="assets/img/coin.png" alt="Coin" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="pricing-card">
+                            <div class="icon-stack">
+                            <div class="glass-ring"></div>
+                            <img src="https://via.placeholder.com/110" alt="Skating Icon" />
+                            </div>
+                            <div class="title">Snow Balls Battle</div>
+                            <div class="description">Glide through frosty elegance and fun.</div>
+                            <div class="features">
+                            <span>Free Skates</span>
+                            <span>2.5 Hours</span>
+                            <span>One-on-One Guide</span>
+                            </div>
+                            <div class="price-btn">
+                            400
+                            <img src="assets/img/coin.png" alt="Coin" />
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+
+
+
+        <!-- Contact Section -->
+            <section class="contact-section" id="contact">
+            <div class="contact-container">
+                <h2>Contact Us</h2>
+                <form id="contactForm" novalidate>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" />
+                    <div class="error-msg" id="nameError">Name must be at least 3 characters</div>
+    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" />
+                    <div class="error-msg" id="emailError">Example: abc@example.com</div>
+    
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Your message"></textarea>
+                    <div class="error-msg" id="messageError">Message must be at least 10 characters</div>
+    
+                    <button type="submit">Send Message</button>
+                    <div class="success-msg" id="successMsg">Your message has been sent successfully!</div>
+                    
+                    <!-- reCAPTCHA Notice -->
+                    <div class="recaptcha-notice">
+                        This site is protected by reCAPTCHA and the Google
+                        <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a> and
+                        <a href="https://policies.google.com/terms" target="_blank">Terms of Service</a> apply.
+                    </div>
+                </form>
+            </div>
+            </section>
+
+
+
+
+        <!--==================== REVIEWS ====================-->
+        <section class="review-section" id="reviews">
+            <div class="review-header">
+                <h2>What They Say</h2>
+                <p>Feedback from our lovely customers.</p>
+            </div>
+            
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                <!-- Slide 1 -->
+                <div class="swiper-slide">
+                    <div class="review-user">
+                    <img src="https://i.pravatar.cc/150?img=1" />
+                    <div>
+                        <div class="review-name">Ihor</div>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                    </div>
+                    <p class="review-text">Absolutely loved the snow slides. The vibe was unreal — worth every penny!</p>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="swiper-slide">
+                    <div class="review-user">
+                    <img src="https://i.pravatar.cc/150?img=2" />
+                    <div>
+                        <div class="review-name">Anna</div>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                    </div>
+                    <p class="review-text">Snow Kingdom is next level. The rentals, the games, the fun — perfection!</p>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="swiper-slide">
+                    <div class="review-user">
+                    <img src="https://i.pravatar.cc/150?img=3" />
+                    <div>
+                        <div class="review-name">Lee</div>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                    </div>
+                    <p class="review-text">Our kids didn’t want to leave! The skating area was magical. Loved it.</p>
+                </div>
+
+                <!-- Slide 4 -->
+                <div class="swiper-slide">
+                    <div class="review-user">
+                    <img src="https://i.pravatar.cc/150?img=4" />
+                    <div>
+                        <div class="review-name">Evgeniy</div>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                    </div>
+                    <p class="review-text">The entire experience from entrance to exit was amazing. Highly recommend!</p>
+                </div>
+
+                <!-- Slide 5 -->
+                <div class="swiper-slide">
+                    <div class="review-user">
+                    <img src="https://i.pravatar.cc/150?img=5" />
+                    <div>
+                        <div class="review-name">Oksana</div>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                    </div>
+                    <p class="review-text">Went twice in one week. Snow Kingdom is addicting! ❄️💙</p>
+                </div>
+
+                <!-- Slide 6 -->
+                <div class="swiper-slide">
+                    <div class="review-user">
+                    <img src="https://i.pravatar.cc/150?img=29" />
+                    <div>
+                        <div class="review-name">Alisa</div>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                    </div>
+                    <p class="review-text">Snow fights, snow cones, snow fun! Clean and well organized.</p>
+                </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!--==================== FOOTER ====================-->
+<footer class="footer section" id="footer">
+  <div class="footer__container container grid">
+
+    <!-- Logo + Socials -->
+    <div class="footer__content">
+      <a class="footer__logo" href="#">
+        <img alt="" class="footer__logo-img" src="assets/img/kingdom.png"/>
+        Snow Kingdom
+      </a>
+      <p class="footer__description">
+        Thunder of snow.
+      </p>
+      <div class="footer__social">
+        <a class="footer__social-link" href="https://www.facebook.com/" target="_blank">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a class="footer__social-link" href="https://www.instagram.com/" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a class="footer__social-link" href="https://tiktok.com/" target="_blank">
+          <i class="fa-brands fa-tiktok"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Google Map (adjusted height) -->
+    <div class="footer__content">
+      <div style="overflow:hidden; border-radius:12px; max-width:100%;">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.691920737061!2d98.38285487463119!3d7.960265392064386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x305031923e80f49b%3A0x48a0e4406b76a6ce!2sIce%20Arena%20Phuket!5e0!3m2!1sen!2sth!4v1752632364929!5m2!1sen!2sth"
+          width="100%"
+          height="120"
+          style="border:0; border-radius: 0.75rem;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+
+    <!-- Opening Hours -->
+    <div class="footer__content">
+      <h3 class="footer__title">
+        Opening Hours
+      </h3>
+      <p class="footer__description">
+        Monday - Friday: 10:00 - 22:00
+      </p>
+    </div>
+
+    <!-- Company -->
+    <div class="footer__content">
+      <h3 class="footer__title">
+        Company
+      </h3>
+      <ul class="footer__links">
+        <li><a class="footer__link" href="privacy.html">Privacy Policy</a></li>
+        <li><a class="footer__link" href="terms.html">Terms & Conditions</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+        <!--=============== Made by Agha Abbas Qizilbash ===============-->
+        <span class="footer__copy">
+            <a class="footer__link copy" href="#">© 2025 Snow Kingdom - Made by <a class="footer__link bold" href="https://www.instagram.com/abbasqiz" target="_blank">Agha Abbas Qizilbash</a></a>
+        </span>
+
+        <img alt="" class="footer__img-one" src="assets/img/snowball.png"/>
+        <img alt="" class="footer__img-two" src="assets/img/tree.png"/>
+        </footer>
+
+
+
+        <!--=============== SCROLL UP ===============-->
+        <a class="scrollup" href="#" id="scroll-up">
+            <i class="bx bx-up-arrow-alt scrollup__icon"></i>
+        </a>
+        <!--=============== THE END ===============-->
+
+
+    </body>
+</html>
